@@ -85,12 +85,13 @@
             // 
             // btnCalcularTarifa
             // 
-            this.btnCalcularTarifa.Location = new System.Drawing.Point(143, 202);
+            this.btnCalcularTarifa.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btnCalcularTarifa.Location = new System.Drawing.Point(203, 199);
             this.btnCalcularTarifa.Name = "btnCalcularTarifa";
             this.btnCalcularTarifa.Size = new System.Drawing.Size(168, 52);
             this.btnCalcularTarifa.TabIndex = 5;
             this.btnCalcularTarifa.Text = "Calcular Tarifa";
-            this.btnCalcularTarifa.UseVisualStyleBackColor = true;
+            this.btnCalcularTarifa.UseVisualStyleBackColor = false;
             this.btnCalcularTarifa.Click += new System.EventHandler(this.btnCalcularTarifa_Click);
             // 
             // lblTotal
@@ -106,6 +107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(573, 327);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.btnCalcularTarifa);
