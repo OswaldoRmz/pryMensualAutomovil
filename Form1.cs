@@ -23,9 +23,9 @@ namespace pryMensualAutomovil
             {
                 boleto = new clsEstudiantes(txtTipo.Text);
             }
-            else if (cmbTipoBoleto.Text == "Publico en General")
+            else if (cmbTipo.Text == "Automovil")
             {
-                boleto = new clsGeneral();
+                boleto = new Automovil();
             }
             else if (cmbTipoBoleto.Text == "Adulto Mayor")
             {
